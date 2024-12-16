@@ -30,3 +30,11 @@ git checkout -b [name] #新建分支
 git add [file] #暂存修改 git add .
 
 git commit -m "[name]" 提交分支
+
+
+
+#发布到远端
+
+git push
+
+ git push --set-upstream origin [XXX]
