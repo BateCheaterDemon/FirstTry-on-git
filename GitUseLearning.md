@@ -38,3 +38,28 @@ git commit -m "[name]" 提交分支
 git push
 
  git push --set-upstream origin [XXX]
+
+#撤回上次更改
+
+git  reset --soft HEAD^
+
+#一次上一次下，会报错
+
+git push -f #强制提交，就可以完成更改上次的提交
+
+
+
+#添加新远程分支
+
+git remote add origin [XXX]
+
+git fetch --depth 10
+
+
+
+#merge主分支
+
+git merge [branchname]
+
+
+
