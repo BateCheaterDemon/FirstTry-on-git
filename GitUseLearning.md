@@ -63,3 +63,8 @@ git merge [branchname]
 
 
 
+git rebase
+
+
+
+git chery-pick [hash]
