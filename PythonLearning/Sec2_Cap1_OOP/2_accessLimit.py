@@ -16,7 +16,11 @@ class Swan:
 
 swan=Swan() #创建Swan类的实例（对象）
 print("直接访问:",swan._neck_swan) #通过实例名访问受保护类型
+print("类访问：",Swan._neck_swan ) #直接查询类
 
 # __foo (private表示私有类型的成员，只允许定义类的本身可以访问，也可以类的实例名._类名__foo来访问) 
 # print("直接访问:",swan.__leg_swan) #通过实例名访问受保护类型,访问失败,抛出异常
 print("直接访问:",swan._Swan__leg_swan) #通过实例名访问受私有类型
+
+#无法访问私有
+# print(swan.__leg_swan)

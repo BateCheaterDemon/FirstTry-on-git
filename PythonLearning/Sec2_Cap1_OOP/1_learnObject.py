@@ -25,7 +25,7 @@ class Student: #驼峰命名法 PartTimeEmployee
         # print(self.name)
         # print(self.gender)
 
-    def run(self,state = "not running"):# 默认设置
+    def run(self,state = "not running"):# 默认设置/这行是一个方法
         print(state)
 
 list1=[] #空列表
