@@ -34,7 +34,7 @@ class Orange(Fruit):
 class BigApple(Apple):
     size="Big"
     def __init__(self):
-        # super().__init__()
+        super().__init__()
         print("我是大苹果") #不会再逆上去初始化父类
 
 bigapple=BigApple()
