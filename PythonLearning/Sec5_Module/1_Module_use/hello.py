@@ -17,3 +17,8 @@ def test():
 
 if __name__=='__main__':
     test()
+
+# $ python3 hello.py
+# Hello, world!
+# $ python hello.py Michael
+# Hello, Michael!
