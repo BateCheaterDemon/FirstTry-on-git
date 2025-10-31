@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "My_Learning_Records"
+version = "1.0.0"
+authors = [
+    {name = "RAIL", email = "2152954@tongji.edu.cn"}
+]
+description = "My_Learning_Recordss"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+license = {text = "Apache-2.0"}
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black"
+]
+
+[tool.setuptools]
+packages = {find = {}}
